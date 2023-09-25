@@ -1,52 +1,51 @@
 /*
  * Globals
  */
+
  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 /*
  * Base structure
  */
 
-body {}
-
 /*
  * Header
  */
-
  .banner-wrap {
-     background-image: url(./assets/banner.jpg.jpg);
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center;
-     position: relative;
-     z-index: 1;
- }
- .overlay {
-     z-index: -1;
-     height: 100%;
-     width: 100%;
-     background: black;
-     opacity: 50%;
-     position: absolute;
-     top: 0;
- }
+  /* feel free to use your own img  */
+  background-image: url(./assets/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+
+}
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 50%;
+  position: absolute;
+  top: 0;
+}
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -58,7 +57,9 @@ body {}
   border-bottom-color: #fff;
 }
 
-header {
+.scrolling {
   background: black;
-  opacity: 80;
+  opacity: 80%;
+  transition: all 0.5s;
 }
+
