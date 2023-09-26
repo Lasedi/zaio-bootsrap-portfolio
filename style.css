@@ -1,6 +1,4 @@
-/*
- * Globals
- */
+/*Globals*/
 
  * {
   margin: 0;
@@ -8,15 +6,9 @@
   box-sizing: border-box;
 }
 
-/*
- * Base structure
- */
 
-/*
- * Header
- */
+/*Header*/
  .banner-wrap {
-  /* feel free to use your own img  */
   background-image: url(./assets/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
